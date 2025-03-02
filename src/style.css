@@ -1,0 +1,37 @@
+.listItems {
+    height: 400px;
+    width: 40vw;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.XYpos {
+    width: 64px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 4px;
+}
+
+
+#frame {
+    position: relative;
+    border: 1px solid black;
+    width: 834px;
+    height: 400px;
+}
+
+.Rectangle {
+    position: relative;
+}
+
+.Circle {
+    position: relative;
+    border-radius: 100%;
+}
